@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{5fb51296-70d0-41dc-84f9-01a65f5a064b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="export">
+      <UniqueIdentifier>{f3958d47-b84c-44c1-bfc3-18f0a3b2a896}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\geometry\quaternion\v1\quaternion_exp.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\geometry\quaternion\quaternion_exp.h">
+      <Filter>export</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_exp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_euler.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_spherical_coords.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_inverse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_is_non_zero.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_is_versor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_magnitude.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_multiply.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_multiply_scalar.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_normalize.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_rotate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_set.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_set_identity.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_slerp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_sub.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_test.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_to_euler.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_add.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_conjugate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_copy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_create.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_divide.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_equal.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

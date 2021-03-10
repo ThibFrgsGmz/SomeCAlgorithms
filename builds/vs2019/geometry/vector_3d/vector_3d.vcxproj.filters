@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ea43f780-0fcd-448e-b9e0-5d1e42985718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="export">
+      <UniqueIdentifier>{0d85c0d6-4b07-488b-aac3-8ec6278fcdfb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_get_angle.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_get_cross_matrix.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_get_norm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_get_unit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_multiply_scalar.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_normalize.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_print_vector.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_prod.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_scalar_prod.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_set.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_sub.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_test.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_add.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_cross_product.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\vector_3d\vector3d_divide_scalar.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\geometry\vector_3d\vector_3d_exp.h">
+      <Filter>export</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

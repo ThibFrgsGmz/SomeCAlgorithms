@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\geometry">
+      <UniqueIdentifier>{f7e588dc-b74d-40ea-93a2-c3966b4d3db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geometry\quaternion">
+      <UniqueIdentifier>{99c3055b-d17a-4464-b1cb-665f0afb25df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geometry\3d_vectors">
+      <UniqueIdentifier>{b6f139b7-b709-4c7f-8d51-06d57696a4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geometry\quaternion\v1">
+      <UniqueIdentifier>{620faae8-c443-4c9f-9b04-953019f0e678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geometry\quaternion\v2">
+      <UniqueIdentifier>{91a20375-d1ef-4965-9bad-0e7f82ef3eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geometry\3d_vectors\v1">
+      <UniqueIdentifier>{cb55a337-be9d-4498-95e9-408729ee9931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geometry\3d_vectors\v2">
+      <UniqueIdentifier>{832f758f-ec78-4dca-92b6-e73d28fbd976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geometry\utils">
+      <UniqueIdentifier>{406ae40b-cc5f-479a-8ca6-456357957b60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_conjugate.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_copy.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_divide.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_equal.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_exp.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_from_euler.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_from_spherical_coords.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_inverse.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_magnitude.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_multiply.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_multiply_scalar.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_non_zero.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_normalize.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_set.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_set_identity.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\quaternion_to_euler.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v1\test_quaternion.c">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\quaternion\v2\quaternion_v2.c">
+      <Filter>src\geometry\quaternion\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v2\3d_vectors_v2.c">
+      <Filter>src\geometry\3d_vectors\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\utils\geometry_utils.c">
+      <Filter>src\geometry\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\vector3d_set.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\vector_add.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\vector3d_scalar_prod.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\print_vector.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\get_cross_matrix.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\vector3d_get_angle.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\test_vector_3d.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\vector3d_get_norm.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\vector3d_prod.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\vector3d_sub.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\3d_vectors\v1\vecto3d_get_unit.c">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\geometry\quaternion\v1\quaternion.h">
+      <Filter>src\geometry\quaternion\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geometry\quaternion\v2\quaternion_v2.h">
+      <Filter>src\geometry\quaternion\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geometry\3d_vectors\v1\3d_vectors.h">
+      <Filter>src\geometry\3d_vectors\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geometry\3d_vectors\v2\3d_vectors_v2.h">
+      <Filter>src\geometry\3d_vectors\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geometry\utils\geometry_utils.h">
+      <Filter>src\geometry\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sw-prelude.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
