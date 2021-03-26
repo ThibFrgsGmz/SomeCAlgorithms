@@ -18,14 +18,13 @@ quaternion_inverse(const Quaternion_t* q, Quaternion_t* output)
 
     fMagnitudeSquared = quaternion_magnitude(q) * quaternion_magnitude(q);
 
-
     if (fMagnitudeSquared < QUATERNION_EPS)
     {
-        quaternion_multiply_scalar(&quat_conjugate, 1.0 / fMagnitudeSquared, output);
+        quaternion_set(0, 0, 0, 0, output);
     }
     else
     {
-        quaternion_set(0, 0, 0, 0, output);
+        quaternion_multiply_scalar(&quat_conjugate, 1.0 / fMagnitudeSquared, output);
     }
 
     return;
