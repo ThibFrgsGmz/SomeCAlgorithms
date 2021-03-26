@@ -112,4 +112,16 @@ extern
 VOID_t          quaternion_rotate(const Quaternion_t* q1, const Vect3D_t* v1, Vect3D_t* v_output);
 extern
 Bool_t          quaternion_is_versor(const Quaternion_t* q);
+extern
+VOID_t          quaternion_from_axis_angle(Real64_t axis[3], Real64_t angle, Quaternion_t* output);
+extern
+Real64_t        quaternion_to_axis_angle(const Quaternion_t* q, Real64_t output[3]);
+extern      
+VOID_t          quaternion_from_x_rotation(Real64_t angle, Quaternion_t* output);
+extern
+VOID_t          quaternion_from_y_rotation(Real64_t angle, Quaternion_t* output);
+extern
+VOID_t          quaternion_from_z_rotation(Real64_t angle, Quaternion_t* output);
+
+
 #endif  // __QUATERNIONS_H_
