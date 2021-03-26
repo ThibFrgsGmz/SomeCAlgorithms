@@ -9,9 +9,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\src\geometry\quaternion\v1\quaternion_exp.h">
-      <Filter>export</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\src\geometry\quaternion\quaternion_exp.h">
       <Filter>export</Filter>
     </ClInclude>
@@ -84,6 +81,24 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_equal.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_axis_angle.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_to_axis_angle.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_z_rotation.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_x_rotation.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_y_rotation.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_rotate_with_point.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
