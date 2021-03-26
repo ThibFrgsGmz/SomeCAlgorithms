@@ -20,7 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\src\geometry\quaternion\quaternion_exp.h" />
-    <ClInclude Include="..\..\..\..\src\geometry\quaternion\v1\quaternion_exp.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_add.c" />
@@ -30,8 +29,12 @@
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_divide.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_equal.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_exp.c" />
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_axis_angle.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_euler.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_spherical_coords.c" />
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_x_rotation.c" />
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_y_rotation.c" />
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_from_z_rotation.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_inverse.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_is_non_zero.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_is_versor.c" />
@@ -40,11 +43,13 @@
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_multiply_scalar.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_normalize.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_rotate.c" />
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_rotate_with_point.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_set.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_set_identity.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_slerp.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_sub.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_test.c" />
+    <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_to_axis_angle.c" />
     <ClCompile Include="..\..\..\..\src\geometry\quaternion\quaternion_to_euler.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
