@@ -94,17 +94,15 @@
 #        define PRAGMA_GCC_PUSH_IGNORE_W(warning)        PRAGMA(GCC diagnostic push) \
                                                         PRAGMA(GCC diagnostic ignored warning)
 #        define PRAGMA_GCC_POP_IGNORE_W()                PRAGMA( GCC diagnostic pop)
-#       define ATTRIBUTE_NO_RETURN                      /*__attribute__ ((__noreturn__))*/ /* We could use _Noreturn but the error parser does not know this symbol */
+#       define ATTRIBUTE_NO_RETURN                      __attribute__ ((__noreturn__)) /* We could use _Noreturn but the error parser does not know this symbol */
 #    else
 #        define PRAGMA_GCC_PUSH_IGNORE_W(warning)
 #        define PRAGMA_GCC_POP_IGNORE_W(warning)
 #       define ATTRIBUTE_NO_RETURN                      _Noreturn /* C11 compliant */
 #    endif
 
-#    ifndef SODERN_REDEFINITION_TYPES
-#        define SODERN_REDEFINITION_TYPES
-
-
+#    ifndef _REDEFINITION_TYPES
+#        define _REDEFINITION_TYPES
 /***
  *     ____   __  ____  ____  _  _   __   ____  ____     ___  __   _  _  _  _   __   __ _    ____  _  _  ____  ____  ____
  *    / ___) /  \(  __)(_  _)/ )( \ / _\ (  _ \(  __)   / __)/  \ ( \/ )( \/ ) /  \ (  ( \  (_  _)( \/ )(  _ \(  __)/ ___)
@@ -120,9 +118,6 @@
  * exact width integer types, as well as the minimum and maximum allowed values defined for each type, using macros.
  * This header is particularly useful for embedded programming which often involves considerable
  * manipulation of hardware specific I/O registers, requiring integer data of fixed widths, specific locations and exact alignments.
- *
- * In order to keep some homogeneity with the redefinition of historical variable types in SODERN
- * (i.e. TypXYZ), we will redefine the types of "stdint.h" in order to get as close as possible to them.
  *
  */
 #        include <stdint.h>    /* Standard ISO C99: 7.18 Integer types */
@@ -182,7 +177,7 @@
 #           endif
 #        endif  /* __cplusplus */
 
-#    endif /* !SODERN_REDEFINITION_TYPES */
+#    endif /* !_REDEFINITION_TYPES */
 
 /*! \brief Check compiler data types size */
 #   include <limits.h>
@@ -216,16 +211,16 @@
 #    ifdef __linux__
 #       include <stdio.h>                                               /* Needed for snprintf primitive */
 #       include <string.h>                                              /* Needed for strncat & strncpy primitive */
-#        define SPRINTF    snprintf                                        /*! \def Macro for SPRINTF portability on Linux */
-#        define STRCAT(dst,size,src)    (strncat((dst),(src),(size)))        /*! \def Macro for STRCAT portability on Linux */
-#        define STRCPY(dst,size,src)    (strncpy((dst),(src),(size)))        /*! \def Macro for STRCPY portability on Linux */
+#       define SPRINTF    snprintf                                          /*! \def Macro for SPRINTF portability on Linux */
+#       define STRCAT(dst,size,src)    (strncat((dst),(src),(size)))        /*! \def Macro for STRCAT portability on Linux */
+#       define STRCPY(dst,size,src)    (strncpy((dst),(src),(size)))        /*! \def Macro for STRCPY portability on Linux */
 #    else
 #        if defined _WIN32 || defined _WIN64
 #           include <stdio.h>                                           /* Needed for sprintf_s primitive */
 #           include <string.h>                                          /* Needed for strcat_s & strcpy_s primitive */
-#            define SPRINTF    sprintf_s                                    /*! \def Macro for SPRINTF portability on Windows */
-#            define STRCAT(dst,size,src)    (strcat_s((dst),(size),(src)))    /*! \def Macro for SPRSTRCATINTF portability on Windows */
-#            define STRCPY(dst,size,src)    (strcpy_s((dst),(size),(src)))    /*! \def Macro for STRCPY portability on Windows */
+#           define SPRINTF    sprintf_s                                      /*! \def Macro for SPRINTF portability on Windows */
+#           define STRCAT(dst,size,src)    (strcat_s((dst),(size),(src)))    /*! \def Macro for STRCAT portability on Windows */
+#           define STRCPY(dst,size,src)    (strcpy_s((dst),(size),(src)))    /*! \def Macro for STRCPY portability on Windows */
 #        endif
 #    endif
 
