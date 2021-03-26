@@ -9,12 +9,9 @@
 VOID_t
 quaternion_conjugate(const Quaternion_t* q, Quaternion_t* output)
 {
-    assert(output != NULL);
-    output->dx = q->dx;
+    assert((q != NULL) && (output != NULL));
 
-    output->fy = -q->fy;
-    output->fz = -q->fz;
-    output->dt = -q->dt;
+    quaternion_set(q->dx, -q->fy, -q->fz, -q->dt, output);
 
     /* A TESTER */
     output->dS = q->dS;
