@@ -5,6 +5,7 @@
 <a href="https://www.codefactor.io/repository/github/thibfrgsgmz/somecalgorithms"><img src="https://www.codefactor.io/repository/github/thibfrgsgmz/somecalgorithms/badge" alt="CodeFactor" /></a>
 <a href="https://frontend.code-inspector.com/project/19596/preferences"><img src="https://www.code-inspector.com/project/19596/status/svg" alt="CodeInspector" /></a>
 <a href="https://frontend.code-inspector.com/project/19596/preferences"><img src="https://www.code-inspector.com/project/19596/score/svg" alt="CodeInspector" /></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FThibFrgsGmz%2FSomeCAlgorithms?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FThibFrgsGmz%2FSomeCAlgorithms.svg?type=shield"/></a>
 </p>
 
 <p align="center">
@@ -38,3 +39,7 @@
 Some algorithms implemented in C language that I use or not on a daily basis, some are my own dogfood.
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FThibFrgsGmz%2FSomeCAlgorithms.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FThibFrgsGmz%2FSomeCAlgorithms?ref=badge_large)
